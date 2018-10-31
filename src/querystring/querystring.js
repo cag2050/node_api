@@ -6,6 +6,6 @@ console.log(querystring.parse(str));
 let obj = {
     a: 'aaa',
     b: 'bbb',
-    c: 'ccc'
+    c: ['111', '222']
 }
 console.log(querystring.stringify(obj));
